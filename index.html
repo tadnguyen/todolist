@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskList</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/d3feac1540.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div class="all-task">
+        <div class="task-title-list">
+          <h2>My Task List</h2>
+        </div>
+        <div id="newtask">
+        <form action="" data-new-list-form>
+        <input 
+          type="text"
+          class="new-task"
+          data-new-list-input
+          placeholder="New Task Name"
+          aria-label="New Task Name"
+        />
+       <button class="btn-add">+</button>
+       </div>
+       <div class="task-list"></div>
+   </div>
+   <script src="./app.js" defer></script>
+</body>
+</html>
